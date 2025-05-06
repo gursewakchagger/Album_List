@@ -5,7 +5,7 @@ import Main from "./Main-page/navbar.jsx";
 import Album from "./Add_album/add_album.jsx";
 import Api from "./Api_call/api.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Update from './updatealbum/update.jsx';
+import Update from './updatealbum/AlbumUpdate.jsx';
 function App() {
   const [album, setablum] = useState([])
   useEffect(() => {
