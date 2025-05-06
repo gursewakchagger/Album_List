@@ -36,6 +36,27 @@
     margin: 5px;
     border-radius: 2px;
 }
+.pagination-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination-div ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    color: black;
+}
+.pagination-div ul li:hover{
+    background-color: grey;
+    color: white;
+}
+.pagination-div ul li a{
+    text-decoration: none;
+}
 @media (max-width: 768px) {
     .main-card {
         flex-direction: column;
