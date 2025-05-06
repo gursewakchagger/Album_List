@@ -6,7 +6,7 @@ import Album from "./Add_album/add_album.jsx";
 import Api from "./Api_call/api.jsx";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Update from './update/update.jsx';
+import Update from './updatealbum/update.jsx';
 function App() {
   const [album, setablum] = useState([])
   useEffect(() => {
